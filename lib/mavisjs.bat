@@ -12,9 +12,9 @@ type circle.js >> out.js
 type polygon.js >> out.js
 type text.js >> out.js
 type controlpoint.js >> out.js
-REM Google Closure Compiler to minify js
-java -jar compiler.jar --js out.js --js_output_file C:\source\axlesoft\www\mavis.js\js\mavis.js
 REM Unminified copy
-REM type out.js > C:\source\axlesoft\www\mavis.js\js\mavis.js
+type out.js > mavis.js
+REM Google Closure Compiler to minify js
+java -jar compiler.jar --js out.js --js_output_file mavis.min.js
 del out.js
 pause
