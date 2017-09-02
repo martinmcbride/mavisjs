@@ -19,6 +19,6 @@ In the /lib3d folder. Requires three.js
 
 Build (in Windows) using mavis3djs.bat.
 
-For non-Windows, simply cat the files together into mavis.js, and run through a
-minifier for mavis.min.js
+For non-Windows, simply cat the files together into mavis3d.js, and run through a
+minifier for mavis3d.min.js
 
