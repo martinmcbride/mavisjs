@@ -8,10 +8,7 @@ There are 2 libraries, supporting 2D and 3D.
 
 In the /lib folder. Requires create.js
 
-Build (in Windows) using mavisjs.bat.
-
-For non-Windows, simply cat the files together into mavis.js, and run through a
-minifier for mavis.min.js
+Build (in Windows) using mavisjs.bat, or use build.py on any system.
 
 ## mavis3djs (2D)
 
